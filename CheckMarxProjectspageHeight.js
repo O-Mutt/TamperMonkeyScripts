@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Checkmarx project page Grid size fix
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  Adding height adjustments to the checkmarx homepage. Should do it by default but can make it happen with a trigger by hitting the '>' key
 // @author       You
 // @match        https://ckmrxgreen.hallmark.com/CxWebClient/Projects.aspx
