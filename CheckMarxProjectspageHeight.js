@@ -27,10 +27,10 @@
         var ret;
         ret = $("#ctl00_cpmain_ProjectsGrid_GridData").css('height', '100%');
         console.log('setting height 1 ret [' + ret + ']');
-        setTimeout(function () {
+        setInterval(function () {
             ret = $("#ctl00_cpmain_ProjectsGrid_GridData").css('height', '100%');
             console.log('setting height 2 ret [' + ret + ']');
-        }, 1500);
+        }, 1000);
     }
     setHeight();
 })();
